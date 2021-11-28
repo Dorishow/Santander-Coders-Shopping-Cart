@@ -14,4 +14,11 @@ export class GameService {
     const games = of(Games)
     return games
   }
+
+  getGame(id: number): Observable<Game> {
+    // For now, assume that a hero with the specified `id` always exists.
+    // Error handling will be added in the next step of the tutorial.
+    const game = Games.find(h => h.id === id)!;
+    return of(game);
+  }
 }

@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { GameComponent } from './game/game.component';
 import { CartComponent } from './cart/cart.component';
 import { GamesContainerComponent } from './games-container/games-container.component';
+import { GameLandingPageComponent } from './game-landing-page/game-landing-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GamesContainerComponent } from './games-container/games-container.compo
     FooterComponent,
     GameComponent,
     CartComponent,
-    GamesContainerComponent
+    GamesContainerComponent,
+    GameLandingPageComponent
   ],
   imports: [
     BrowserModule,

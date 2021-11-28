@@ -1,6 +1,5 @@
 import { Game } from './../game';
 import { Component, OnInit, Input } from '@angular/core';
-import { GameConsoles as console } from '../Gameconsoles';
 
 @Component({
   selector: 'app-game',

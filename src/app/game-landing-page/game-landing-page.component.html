@@ -1,0 +1,11 @@
+<a routerLink="/store">Voltar para a loja</a>
+
+<article class="game-card" *ngIf="game">
+  <img class="game-thumbnail grow" src="{{ game.thumbnail }}" alt={{game.title}} />
+  <h1>{{ game.title }}</h1>
+  {{ game.console }}
+  {{ game.release }}
+  <div>
+    {{ game.price | currency: "R$" }}
+  </div>
+</article>
