@@ -1,5 +1,9 @@
+.game-link{
+  color: rgb(131, 0, 253);
+  text-decoration: none;
+}
+
 .game-card{
-  /* background-color: rgb(235, 235, 235); */
   padding: 10px;
   transition: all .15s ease-in-out;
   cursor: pointer;
