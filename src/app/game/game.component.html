@@ -1,1 +1,9 @@
-<p>game works!</p>
+<article *ngIf="game">
+  <img class="game-thumbnail grow" src={{game.thumbnail}} alt="">
+  <h1> {{game.title}} </h1>
+  {{game.console}}
+  {{game.release}}
+  <div>
+    {{ game.price | currency : 'R$' }}  </div>
+
+</article>

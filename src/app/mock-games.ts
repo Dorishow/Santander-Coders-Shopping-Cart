@@ -4,7 +4,8 @@ import { GameConsoles as console } from "./Gameconsoles";
 export const Games: Game[] = [
 
   {
-    id: 1, name: 'Final Fantasy VII',
+    id: 1,
+    title: 'Final Fantasy VII',
     release: '1997',
     console: console.N64,
     thumbnail: '',
@@ -12,7 +13,7 @@ export const Games: Game[] = [
   },
   {
     id: 2,
-    name: 'The legend Of Zelda: Ocarina of time',
+    title: 'The legend Of Zelda: Ocarina of time',
     release: '1998',
     console: console.N64,
 
@@ -21,7 +22,7 @@ export const Games: Game[] = [
   },
   {
     id: 3,
-    name: 'Streets Of Rage 2',
+    title: 'Streets Of Rage 2',
     release: '1992',
     console: console.MegaDrive,
     thumbnail: '',
@@ -29,7 +30,7 @@ export const Games: Game[] = [
   },
   {
     id: 4,
-    name: 'Comix Zone',
+    title: 'Comix Zone',
     release: '1995',
     console: console.MegaDrive,
     thumbnail: '',
@@ -37,7 +38,7 @@ export const Games: Game[] = [
   },
   {
     id: 5,
-    name: 'CastleVania: Bloodlines',
+    title: 'CastleVania: Bloodlines',
     release: '1994',
     console: console.MegaDrive,
     thumbnail: '',
@@ -45,7 +46,7 @@ export const Games: Game[] = [
   },
   {
     id: 6,
-    name: 'Golden Sun',
+    title: 'Golden Sun',
     release: '2001',
     console: console.Gamebooy,
     thumbnail: '',
@@ -53,7 +54,7 @@ export const Games: Game[] = [
   },
   {
     id: 7,
-    name: 'Fire Emblem',
+    title: 'Fire Emblem',
     release: '1990',
     console: console.Gamebooy,
     thumbnail: '',
@@ -61,7 +62,7 @@ export const Games: Game[] = [
   },
   {
     id: 8,
-    name: 'Super Metroid',
+    title: 'Super Metroid',
     release: '1994',
     console: console.Snes,
     thumbnail: '',
@@ -69,7 +70,7 @@ export const Games: Game[] = [
   },
   {
     id: 9,
-    name: 'Mortal Kombat 2',
+    title: 'Mortal Kombat 2',
     release: '1994',
     console: console.Snes,
     thumbnail: '',
@@ -77,7 +78,7 @@ export const Games: Game[] = [
   },
   {
     id: 10,
-    name: 'Star Fox',
+    title: 'Star Fox',
     release: '1993',
     console: console.Snes,
     thumbnail: '',
