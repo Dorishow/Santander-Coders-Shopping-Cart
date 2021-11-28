@@ -1,6 +1,6 @@
 export interface Game {
   id: number;
-  name: string;
+  title: string;
   release: string;
   console: string;
   thumbnail: string;
