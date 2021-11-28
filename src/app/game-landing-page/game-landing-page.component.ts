@@ -41,6 +41,7 @@ export class GameLandingPageComponent implements OnInit {
         price: this.game!.price,
         quantity: this.quantity,
         totalValue: this.totalPrice,
+        itemId: this.game!.id,
       }
       this.persistense.addToLocalStorage(item)
       alert('item adicionado ao carrinho')
