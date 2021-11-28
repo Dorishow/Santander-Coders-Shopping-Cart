@@ -9,7 +9,7 @@ export const Games: Game[] = [
     release: '1997',
     console: console.N64,
     thumbnail: 'https://play-lh.googleusercontent.com/nkQBhcGFuPEc3RHcnhxCQjRpxUqssohJ_TpROmiN1WoS-HU_vjN46XuF0VFz658Mjz_Q',
-    price: 0
+    price: 50
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const Games: Game[] = [
     release: '1998',
     console: console.N64,
     thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/347b1ddd-5231-4d82-8550-1fd0f0dc4afb/d7f83kw-c5dd6bcd-52c9-45c4-ae53-985758aec4ff.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM0N2IxZGRkLTUyMzEtNGQ4Mi04NTUwLTFmZDBmMGRjNGFmYlwvZDdmODNrdy1jNWRkNmJjZC01MmM5LTQ1YzQtYWU1My05ODU3NThhZWM0ZmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dHODTeWhM6QsvFW3CWzeY4zsj76HEFJcIMTnl1RgwZk',
-    price: 0
+    price: 60.30
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ export const Games: Game[] = [
     release: '1992',
     console: console.MegaDrive,
     thumbnail: 'https://www.romhacking.net/hacks/genesis/images/titles/4246titlescreen.png',
-    price: 0
+    price: 25.50
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const Games: Game[] = [
     release: '1995',
     console: console.MegaDrive,
     thumbnail: 'https://jogoveio.com.br/wp-content/uploads/2017/03/ComixZone-Logo.jpg',
-    price: 0
+    price: 54
   },
   {
     id: 5,
@@ -41,7 +41,7 @@ export const Games: Game[] = [
     release: '1994',
     console: console.MegaDrive,
     thumbnail: 'https://segaretro.org/images/d/da/CastlevaniaBloodlines_title.png',
-    price: 0
+    price: 65
   },
   {
     id: 6,
@@ -49,7 +49,7 @@ export const Games: Game[] = [
     release: '1995',
     console: console.Snes,
     thumbnail: 'https://www.mobygames.com/images/covers/l/78723-mega-man-7-snes-front-cover.jpg',
-    price: 0
+    price: 10.50
   },
   {
     id: 7,
@@ -57,7 +57,7 @@ export const Games: Game[] = [
     release: '2004',
     console: console.Gamebooy,
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBPsX74iZsFxefvWyDwJ-hRQqb2SmysLAQryWGTOpg9RvZgGpFGM3-Vsh3cCXdk8EweY&usqp=CAU',
-    price: 0
+    price: 24.56
   },
   {
     id: 8,
@@ -65,7 +65,7 @@ export const Games: Game[] = [
     release: '1994',
     console: console.Snes,
     thumbnail: 'https://i.imgur.com/NNmSntO.png',
-    price: 0
+    price: 27.90
   },
   {
     id: 9,
@@ -73,7 +73,7 @@ export const Games: Game[] = [
     release: '1994',
     console: console.Snes,
     thumbnail: 'https://www.retroalba.es/wp-content/uploads/2017/02/MORTAL-KOMBAT-2-LOGO.jpg',
-    price: 0
+    price: 38.60
   },
   {
     id: 10,
@@ -81,7 +81,7 @@ export const Games: Game[] = [
     release: '1993',
     console: console.Snes,
     thumbnail: 'https://professionalmorondotcom.files.wordpress.com/2021/02/star-fox-2-on-the-super-nintendo.jpg',
-    price: 0
+    price: 25.30
   },
 
 ]

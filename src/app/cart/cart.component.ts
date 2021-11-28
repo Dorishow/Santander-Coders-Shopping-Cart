@@ -1,4 +1,6 @@
+import { cartItem } from '../carItem';
 import { Component, OnInit } from '@angular/core';
+import { PersistenseCartService } from '../persistense-cart.service';
 
 @Component({
   selector: 'app-cart',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CartComponent implements OnInit {
 
-  constructor() { }
+  constructor(private persistense: PersistenseCartService) { }
+
+  cart: cartItem[] = []
+
+  getCart(){
+    this.cart = this.persistense.loadFromLocalStorage()
+  }
 
   ngOnInit(): void {
+    this.getCart()
   }
 
 }

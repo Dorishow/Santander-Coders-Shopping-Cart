@@ -1,0 +1,51 @@
+.game-section{
+  display: grid;
+  min-height: 100vh;
+}
+
+.game-thumbnail{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 45vw;
+  border-radius: 0.25rem;
+}
+.info-container{
+  display: grid;
+  height: 100%;
+}
+
+.info-container__center{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.font-light {
+  font-weight: lighter;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.textFormat{
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.landing-button{
+  padding: 2em;
+  background-color: transparent;
+  border: 1px solid #3f001d42;
+  cursor: pointer;
+}
+
+.landing-button:hover{
+  border: 1px solid #ff0075;
+}
