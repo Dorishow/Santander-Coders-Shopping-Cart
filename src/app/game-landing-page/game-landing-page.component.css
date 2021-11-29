@@ -44,8 +44,39 @@
   background-color: transparent;
   border: 1px solid #3f001d42;
   cursor: pointer;
+  margin-top: 40px;
 }
 
 .landing-button:hover{
   border: 1px solid #ff0075;
+}
+
+.console{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.N64{
+  background-color: indigo;
+  color: white;
+}
+
+.Snes{
+  background-color: green;
+  color: white;
+}
+
+.MegaDrive{
+  background-color: navy;
+  color: white;
+}
+
+.GameBoy{
+  background-color:orangered;
+  color: rgb(255, 255, 255);
+}
+
+.price{
+  padding: 5px;
+  color:purple;
 }

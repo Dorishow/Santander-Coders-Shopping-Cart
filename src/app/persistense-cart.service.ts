@@ -16,8 +16,8 @@ export class PersistenseCartService {
     localStorage.setItem(this.cartName, JSON.stringify(list))
   }
 
-  updateLocalStorage(id: number){
-    let localCart = this.loadFromLocalStorage()
+  removeFromLocalStorage(id: number){
+    const localCart = this.loadFromLocalStorage()
     if(localCart.length > -1){
       localCart.splice(id, 1)
       localStorage.setItem(this.cartName, JSON.stringify(localCart))

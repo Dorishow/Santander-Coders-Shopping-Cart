@@ -20,8 +20,8 @@ export class CartComponent implements OnInit {
   removeFromCart(id: number){
     if(this.cart.length > -1){
       this.cart.splice(id, 1)
+      this.persistense.removeFromLocalStorage(id)
     }
-    this.persistense.updateLocalStorage(id)
   }
 
   ngOnInit(): void {
