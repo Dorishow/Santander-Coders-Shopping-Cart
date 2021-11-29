@@ -1,6 +1,7 @@
 .cart-item{
-  margin-top: 20px;
   padding: 1em;
+  padding-top: 60px;
+  padding-bottom: 60px;
   border-radius: 5px;
   background-color: rgba(255, 244, 241, 0.767);
   color: rgb(134, 21, 1);
@@ -39,8 +40,6 @@
   padding: 20px;
   background-color: rgba(236, 229, 236, 0.589);
   color: rgb(88, 88, 88);
-  margin-top: 50px;
-  margin-bottom: 50px;
   border-radius: 5px;
   font-weight: lighter;
   font-size: large;

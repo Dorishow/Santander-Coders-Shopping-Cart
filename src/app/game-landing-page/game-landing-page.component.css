@@ -1,6 +1,7 @@
 .game-section{
   display: grid;
   min-height: 100vh;
+  padding: 50px;
 }
 
 .game-thumbnail{
@@ -52,7 +53,7 @@
 }
 
 .console{
-  padding: 10px;
+  padding: 7px;
   border-radius: 5px;
 }
 
