@@ -1,4 +1,24 @@
 .headder-nav{
+  padding: 20px;
+  position: sticky;
+  width: 100vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: purple;
+}
+
+.headder-nav a{
+  padding: 5px;
+  width: 100px;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.headder-nav a:hover{
+  text-decoration: underline;
+  background-color: white;
+  color: purple;
 }
