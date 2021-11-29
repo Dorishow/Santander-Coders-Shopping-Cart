@@ -2,10 +2,10 @@
   margin-top: 20px;
   padding: 1em;
   border-radius: 5px;
-  background-color: rgb(255, 244, 241);
+  background-color: rgba(255, 244, 241, 0.767);
   color: rgb(134, 21, 1);
-  font-size: large;
-  border-bottom: 2px solid rgb(255, 38, 0);
+  border-bottom: 3px solid rgb(255, 38, 0);
+  line-height: 3rem;
 }
 
 @media (min-width: 1024px) {
@@ -20,4 +20,16 @@
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.cart-button{
+  padding: 1em;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 25, 25, 0.205);
+  cursor: pointer;
+}
+
+.cart-button:hover{
+  background-color: tomato;
 }

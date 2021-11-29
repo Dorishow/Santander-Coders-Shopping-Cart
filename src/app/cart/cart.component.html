@@ -1,9 +1,13 @@
 <article class="cart-item" *ngFor="let item of cart">
 
-  <div>item id {{item.itemId}}</div>
-  <div>name {{item.name}} </div>
-  <div>price {{item.price | currency: "R$"}} </div>
-  <div>quantity {{item.quantity}} </div>
-  <div>totalValue {{item.totalValue | currency: "R$"}} </div>
 
+  <div>produto:  <button class="cart-button" routerLink="/game/{{item.itemId}}" >{{item.name}}</button></div>
+  <div>preço da unidade: {{item.price | currency: "R$"}} </div>
+  <div>quantidade: {{item.quantity}} </div>
+  <div>Valor total {{item.totalValue | currency: "R$"}} </div>
+  <button class="cart-button" (click)="removeFromCart(cart.indexOf(item))" >Remover do carrinho</button>
 </article>
+
+<section *ngIf="cart.length == 0">
+  Seu carrinho está vazio
+</section>
