@@ -33,3 +33,15 @@
 .cart-button:hover{
   background-color: tomato;
 }
+
+.empty-cart{
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(236, 229, 236, 0.589);
+  color: rgb(88, 88, 88);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  font-weight: lighter;
+  font-size: large;
+}

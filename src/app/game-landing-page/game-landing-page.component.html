@@ -4,10 +4,10 @@
     <div class="info-container__center">
 
       <h1  class="text-4xl font-light">{{ game.title }}</h1>
-      <h1 class="font-light textFormat">{{ game.console }}</h1>
-      <h1 class="font-light textFormat">{{ game.release }}</h1>
+      <span class="font-light textFormat console {{game.console}}">Console: {{ game.console }}</span>
+      <h1 class="font-light textFormat">Data de lançamento: {{ game.release }}</h1>
       <div class="font-light textFormat">
-        Valor total: {{ totalPrice | currency: "R$" }}
+        Valor total: <br> <span class="text-4xl price">{{ totalPrice | currency: "R$" }}</span>
       </div>
       <button class="landing-button" (click)="modifyQuantity(-1)">-</button>
       <button class="landing-button" (click)="addToCart()" >Adicionar <span>{{quantity}}</span> ao carrinho</button>
