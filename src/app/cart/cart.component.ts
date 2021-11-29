@@ -17,6 +17,13 @@ export class CartComponent implements OnInit {
     this.cart = this.persistense.loadFromLocalStorage()
   }
 
+  removeFromCart(id: number){
+    if(this.cart.length > -1){
+      this.cart.splice(id, 1)
+    }
+    this.persistense.updateLocalStorage(id)
+  }
+
   ngOnInit(): void {
     this.getCart()
   }
